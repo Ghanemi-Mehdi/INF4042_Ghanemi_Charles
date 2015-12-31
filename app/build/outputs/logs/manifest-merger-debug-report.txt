@@ -29,7 +29,7 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\hp\AndroidStudioPro
 	android:allowBackup
 		ADDED from C:\Users\hp\AndroidStudioProjects\EssaieApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\hp\AndroidStudioProjects\EssaieApp\app\src\main\AndroidManifest.xml:7:9-40
+		ADDED from C:\Users\hp\AndroidStudioProjects\EssaieApp\app\src\main\AndroidManifest.xml:7:9-38
 	android:theme
 		ADDED from C:\Users\hp\AndroidStudioProjects\EssaieApp\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.hp.essaieapp.MainActivity

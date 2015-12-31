@@ -26,7 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         android.support.v7.app.ActionBar ab = getSupportActionBar();
-        ab.setLogo(R.mipmap.iconeapp);
+        ab.setLogo(R.mipmap.player);
         ab.setDisplayUseLogoEnabled(true);
         ab.setDisplayShowHomeEnabled(true);
 
