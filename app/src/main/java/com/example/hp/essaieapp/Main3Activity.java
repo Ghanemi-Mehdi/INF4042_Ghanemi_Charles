@@ -48,7 +48,7 @@ public class Main3Activity extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent intent1 = new Intent();
                         PendingIntent pIntent = PendingIntent.getActivity(Main3Activity.this, 0, intent1, 0);
-                        Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Tickertext")
+                        Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Notification")
                                 .setContentTitle("Nouvelle notification").setContentText("Vous avez une notification").setSmallIcon(R.mipmap.andr_image3)
                                 .setContentIntent(pIntent).getNotification();
                         noti.flags = Notification.FLAG_AUTO_CANCEL;
@@ -98,12 +98,31 @@ public class Main3Activity extends AppCompatActivity {
                             Toast.makeText(Main3Activity.this,"username and password correct",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent("com.example.hp.essaieapp.Main4Activity");
                             startActivity(intent);
+
+                            Intent intent1 = new Intent();
+                            PendingIntent pIntent = PendingIntent.getActivity(Main3Activity.this, 0, intent1, 0);
+                            Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Changement d'activité")
+                                    .setContentTitle("Activité 4 ouverte!").setContentText("Vous avez une notification").setSmallIcon(R.mipmap.andr_image3)
+                                    .setContentIntent(pIntent).getNotification();
+                            noti.flags = Notification.FLAG_AUTO_CANCEL;
+                            NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+                            nm.notify(0, noti);
+
                         } else {
-                            Toast.makeText(Main3Activity.this,"Username and password is not correcr",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Main3Activity.this,"Username and password is not correct",Toast.LENGTH_SHORT).show();
                             attempt_counter-- ;
                             attempt.setText(Integer.toString(attempt_counter));
                             if(attempt_counter==0){
                                 login_btn.setEnabled(false);
+
+                                Intent intent1 = new Intent();
+                                PendingIntent pIntent = PendingIntent.getActivity(Main3Activity.this, 0, intent1, 0);
+                                Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Attention")
+                                        .setContentTitle("Nombre d'essai dépassé").setContentText("Nouvelle notification").setSmallIcon(R.mipmap.iconefoot2)
+                                        .setContentIntent(pIntent).getNotification();
+                                noti.flags = Notification.FLAG_AUTO_CANCEL;
+                                NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+                                nm.notify(0, noti);
                             }
                         }
                     }

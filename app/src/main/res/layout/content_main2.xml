@@ -36,7 +36,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
-        android:background="#0f4651" />
+        android:background="#0f4651"
+        android:textColor="#ffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -49,5 +50,18 @@
         android:layout_marginStart="51dp"
         android:text="Activité 3"
         android:textStyle="bold"
-        android:background="#0f4651" />
+        android:background="#0f4651"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journal photo"
+        android:id="@+id/textView"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:textColor="#102e4a"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
 </RelativeLayout>

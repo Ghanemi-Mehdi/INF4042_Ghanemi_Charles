@@ -20,7 +20,9 @@ public class Main4Activity extends AppCompatActivity {
     private static ListView list_view;
     private static String[] NAMES = new String[] {"Lionel Messi","Cristiano Ronaldo","Luis Suarez","Arjen Robben","Eden Hazard",
                             "Zlatan Ibrahimovic","Neymar","Andres Iniesta","Robert Lewandowski","David Silva","James Rodriguez",
-                            "Luca Modric","Gareth Bale","Mesut Ozil"};
+                            "Luca Modric","Gareth Bale","Mesut Ozil","Toni Kroos","Sergio Ramos","Sergio Aguero","Giorgio Chiellini",
+                            "Philipp Lahm","Paul Pogba","Kevin De Bruyne","Thomas Muller","Sergio Busquets","Marco Reus","Alexis Sanchez",
+                            "Arturo Vidal","Diego Costa","Karim Benzema","Carlos Tevez"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
