@@ -2421,13 +2421,18 @@ containing a value of this type.
         public static final int menu_main=0x7f0d0000;
     }
     public static final class mipmap {
-        public static final int and_image1=0x7f030000;
-        public static final int andr_image2=0x7f030001;
-        public static final int andr_image3=0x7f030002;
-        public static final int ic_launcher=0x7f030003;
-        public static final int iconeapp=0x7f030004;
-        public static final int iconefoot=0x7f030005;
-        public static final int iconefoot2=0x7f030006;
+        public static final int alerticon=0x7f030000;
+        public static final int and_image1=0x7f030001;
+        public static final int andr_image2=0x7f030002;
+        public static final int andr_image3=0x7f030003;
+        public static final int foot4=0x7f030004;
+        public static final int ic_launcher=0x7f030005;
+        public static final int iconeapp=0x7f030006;
+        public static final int iconefoot=0x7f030007;
+        public static final int iconefoot2=0x7f030008;
+        public static final int iconefoot3=0x7f030009;
+        public static final int player=0x7f03000a;
+        public static final int validicom=0x7f03000b;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;

@@ -8,6 +8,10 @@
         "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\andr_image2.png"
     },
     {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\alerticon.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\alerticon.png"
+    },
+    {
         "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\and_image1.png",
         "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\and_image1.png"
     },
@@ -20,11 +24,27 @@
         "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\iconeapp.png",
-        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\iconeapp.png"
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\foot4.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\foot4.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\validicom.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\validicom.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\player.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\player.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\iconefoot3.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\iconefoot3.png"
     },
     {
         "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\andr_image3.png",
         "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\andr_image3.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\iconeapp.png",
+        "source": "C:\\Users\\hp\\AndroidStudioProjects\\EssaieApp\\app\\src\\main\\res\\mipmap-xhdpi\\iconeapp.png"
     }
 ]

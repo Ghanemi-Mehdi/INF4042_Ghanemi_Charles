@@ -102,7 +102,7 @@ public class Main3Activity extends AppCompatActivity {
                             Intent intent1 = new Intent();
                             PendingIntent pIntent = PendingIntent.getActivity(Main3Activity.this, 0, intent1, 0);
                             Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Changement d'activité")
-                                    .setContentTitle("Activité 4 ouverte!").setContentText("Vous avez une notification").setSmallIcon(R.mipmap.andr_image3)
+                                    .setContentTitle("Activité 4 ouverte!").setContentText("Vous avez une notification").setSmallIcon(R.mipmap.validicom)
                                     .setContentIntent(pIntent).getNotification();
                             noti.flags = Notification.FLAG_AUTO_CANCEL;
                             NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
@@ -118,7 +118,7 @@ public class Main3Activity extends AppCompatActivity {
                                 Intent intent1 = new Intent();
                                 PendingIntent pIntent = PendingIntent.getActivity(Main3Activity.this, 0, intent1, 0);
                                 Notification noti = new Notification.Builder(Main3Activity.this).setTicker("Attention")
-                                        .setContentTitle("Nombre d'essai dépassé").setContentText("Nouvelle notification").setSmallIcon(R.mipmap.iconefoot2)
+                                        .setContentTitle("Nombre d'essai dépassé").setContentText("Nouvelle notification").setSmallIcon(R.mipmap.alerticon)
                                         .setContentIntent(pIntent).getNotification();
                                 noti.flags = Notification.FLAG_AUTO_CANCEL;
                                 NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);

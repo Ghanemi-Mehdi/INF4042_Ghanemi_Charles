@@ -17,7 +17,8 @@ public class Main2Activity extends AppCompatActivity {
     private static Button buttonSwtch;
 
     private int current_image_index;
-    int[] images = {R.mipmap.and_image1,R.mipmap.andr_image2,R.mipmap.andr_image3,R.mipmap.iconefoot2,R.mipmap.iconefoot};
+    int[] images = {R.mipmap.and_image1,R.mipmap.andr_image2,R.mipmap.andr_image3,R.mipmap.iconefoot2,R.mipmap.iconefoot,R.mipmap.player,
+                    R.mipmap.iconefoot3,R.mipmap.foot4};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
